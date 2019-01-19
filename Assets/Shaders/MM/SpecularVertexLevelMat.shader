@@ -43,9 +43,9 @@ Shader "MM/SpecularVertexLevelMat"
                 // Tranform the vertex from object space to projection space
                 o.pos = UnityObjectToClipPos(v.vertex);
                 // Get ambient term
-                // fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz;
-                // // Tranform the normal from object space to world space
-                // fixed3 worldNormal = normalize(mul(v.normal, (float3x3)unity_WorldToObject));
+                fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz;
+                // Tranform the normal from object space to world space
+                fixed3 worldNormal = normalize(mul(v.normal, (float3x3)unity_WorldToObject));
                 // Get the light direction in world space
             }
             
