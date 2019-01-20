@@ -57,6 +57,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
+    - _ColCount: 4
+    - _ColIndex: 3
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -68,6 +70,8 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _RowCount: 4
+    - _RowIndex: 3
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: 12
